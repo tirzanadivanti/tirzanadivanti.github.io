@@ -1,13 +1,13 @@
 /*jumbotron*/
 .jumbotron {
-	background-image: url("../img/jumbo2.jpg");
+	background-image: url("../img/jumbo4.jpg");
 	background-size: cover;
 	height: 650px;
 	margin-top: -20px;
 }
 .ifont{
 	color: white ;
-	margin-top: 140px;
+	margin-top: 350px;
 }
 
 
