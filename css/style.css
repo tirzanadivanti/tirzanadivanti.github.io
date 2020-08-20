@@ -1,8 +1,8 @@
 /*jumbotron*/
 .jumbotron {
-	background-image: url("../img/5.png");
+	background-image: url("../img/jumbo2.jpg");
 	background-size: cover;
-	height: 600px;
+	height: 650px;
 	margin-top: -20px;
 }
 .ifont{
@@ -31,6 +31,34 @@
 
 
 /*Card*/
-.card{
-	background-color: #dddd;
+.row .card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	transform: scale(1.02);
+}
+.row .card{
+	width: 200px;
+}
+.card-img-top{
+	width:200px;
+}
+.mdlimg{
+	width: 450px;
+}
+/*footer*/
+footer{
+	height: 330px;
+}
+.font{
+	font-family:calibri light;
+	font-size:13px;
+	color:gray;
+	padding: 0 10px 0 10px;
+	min-height: 1px;
+}
+.font1{
+	font-family:calibri light;
+	font-size:20px;
+	color:gray;
+	padding: 0 10px 0 10px;
+	min-height: 1px;
 }
