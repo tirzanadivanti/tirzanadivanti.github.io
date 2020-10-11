@@ -1,871 +1,903 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
-    <!-- font saya -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-    
-    <!-- CSS saya -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>CAMP-UPrent</title>
-  </head> 
-  <body>
-    
-    <!-- awal navbar -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-         
-          <a class="navbar-brand" href="#">CAMP-UPrent</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- font saya -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+  <!-- CSS saya -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>CAMP-UPrent</title>
+</head>
+
+<body>
+
+  <!-- awal navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">CAMP-UPrent</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="navbar-nav ml-auto mr-4">
+          <a class="nav-link nav-item active" href="#">HOME <span class="sr-only">(current)</span></a>
+          <a class="nav-link nav-item active" href="#">BLOG</a>
+          <a class="nav-link dropdown-toggle dropdown nav-item active" href="#" id="navbarDropdownMenuLink"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            CATEGORY</a>
+          <a class="nav-link nav-item btn-primary tombol" href="file:///D:/WEB4/login.html">Login</a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="file:///D:/WEB4/kategori.html">Hiking</a>
+            <a class="dropdown-item" href="#">Camping</a>
+            <a class="dropdown-item" href="#">Diving</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- akhir navbar -->
+
+
+  <!-- awal jumbotron -->
+
+  <div class="jumbotron jumbotron-fluid ">
+    <div class="container ifont">
+      <h1 class="display-4"><span class="font-weight-bold">Explore</span> our <span
+          class="font-weight-bold">Nature</span></h1>
+      <p class="lead">complete your equipment here!</p>
+    </div>
+  </div>
+
+  <!-- akhir jumbotron -->
+
+
+
+  <!-- awal kategori -->
+
+
+
+  <!-- akhir kategori -->
+
+
+
+  <!-- awal card -->
+
+  <div class="container ">
+    <div class="row mt-50">
+      <div class="col text-center ">
+        <h1>Our Product</h1>
+      </div>
+    </div>
+
+    <!-- card baris1 -->
+    <div class="row ">
+      <div class="col-md-3">
+        <div class="card">
+          <img src="img/jaket.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Jaket</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">
+              Detail
             </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <div class="navbar-nav ml-auto mr-4">
-              
-                <a class="nav-link nav-item active" href="#">HOME <span class="sr-only">(current)</span></a>
-                <a class="nav-link nav-item active" href="#">TIPS & TRICK</a>
-                <a class="nav-link dropdown-toggle dropdown nav-item active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                CATEGORY
-                </a>
-                
-               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Hiking</a>
-                  <a class="dropdown-item" href="#">Camping</a>
-                  <a class="dropdown-item" href="#">Diving</a>
-                </div>
-              
-            </div>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-    <!-- akhir navbar -->
-
-
-    <!-- awal jumbotron -->
-
-     <div class="jumbotron jumbotron-fluid ">
-        <div class="container ifont">
-          <h1 class="display-4"><span class="font-weight-bold">Explore</span> our <span class="font-weight-bold">Nature</span></h1> 
-          <p class="lead">complete your equipment here!</p>
-        </div>
-     </div>
-
-    <!-- akhir jumbotron -->
-
-
-    <!-- awal layout -->
-   <!-- <div class="container">
-      <div class="row">
-        <div class="col-sm-8">
-          <img src="img/lay1.jpg">
-        </div>
-        <div class="col-sm-4">
-          <img src="img/lay1-2.png">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="img/lay2.jpg">
-        </div>
-        <div class="col-sm-8">
-          <img src="img/lay2-2.jpg">
-        </div>
-      </div>
-    </div> -->
-
-    <!-- akhir layout -->
-
-
-    <!-- awal card -->
-
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <h1>Our Product</h1>
-          </div>
-        </div>
-       
-        <!-- card baris1 -->
-        <div class="row ">
-          <div class="col-md-3">
-            <div class="card" >
-              <img src="img/jaket.jpg" class="card-img-top" alt="...">
-              <div class="card-body bg-light">
-                <h5 class="card-title">Jaket</h5>
-                <i class="fas fa-star"></i>
-                <p class="card-text">Rp 10.000/hari</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">
-                  Detail
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card" >
-              <img src="img/gaiter.jpg" class="card-img-top" alt="...">
-              <div class="card-body bg-light">
-                <h5 class="card-title">Gaiter</h5>
-                <i class="fas fa-star"></i>
-                <p class="card-text">Rp 10.000/hari</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">
-                  Detail
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card" >
-              <img src="img/sepatuhiking.jpg" class="card-img-top" alt="...">
-              <div class="card-body bg-light">
-                <h5 class="card-title">Sepatu Hiking</h5>
-                <i class="fas fa-star"></i>
-                <p class="card-text">Rp 10.000/hari</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">
-                  Detail
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card" >
-              <img src="img/headlamp.jpg" class="card-img-top" alt="...">
-              <div class="card-body bg-light">
-                <h5 class="card-title">Head Lamp</h5>
-                <i class="fas fa-star"></i>
-                <p class="card-text">Rp 10.000/hari</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal4">
-                  Detail
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-       </div>
-        <!-- akhir baris1 -->
-
-        <!-- card baris2 -->
-        <div class="container">
-         <div class="row ">
-          <div class="col-md-3 mt-4">
-            <div class="card" >
-              <img src="img/tenda2.jpg" class="card-img-top" alt="...">
-              <div class="card-body bg-light">
-                <h5 class="card-title">Tenda</h5>
-                <i class="fas fa-star"></i>
-                <p class="card-text">Rp 10.000/hari</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal5">
-                  Detail
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mt-4">
-            <div class="card" >
-              <img src="img/hammock.png" class="card-img-top" alt="...">
-              <div class="card-body bg-light">
-                <h5 class="card-title">Hammock</h5>
-                <i class="fas fa-star"></i>
-                <p class="card-text">Rp 10.000/hari</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal6">
-                  Detail
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mt-4">
-            <div class="card" >
-              <img src="img/survivalkit.jpg" class="card-img-top" alt="...">
-              <div class="card-body bg-light">
-                <h5 class="card-title">Survival Kit</h5>
-                <i class="fas fa-star"></i>
-                <p class="card-text">Rp 10.000/hari</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal7">
-                  Detail
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mt-4">
-            <div class="card" >
-              <img src="img/kompor2.jpg" class="card-img-top" alt="...">
-              <div class="card-body bg-light">
-                <h5 class="card-title">Kompor</h5>
-                <i class="fas fa-star"></i>
-                <p class="card-text">Rp 10.000/hari</p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal8">
-                  Detail
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-        <!-- akhir baris2 -->
-
-        <!-- card baris3 -->
-
-        <div class="container">
-          <div class="row ">
-            <div class="col-md-3 mt-4">
-              <div class="card" >
-                <img src="img/kakikatak.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-light">
-                  <h5 class="card-title">Kaki Katak</h5>
-                  <i class="fas fa-star"></i>
-                  <p class="card-text">Rp 10.000/hari</p>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal9">
-                    Detail
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mt-4">
-              <div class="card">
-                <img src="img/snorkel.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-light">
-                  <h5 class="card-title">Snorkel</h5>
-                  <i class="fas fa-star"></i>
-                  <p class="card-text">Rp 10.000/hari</p>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal10">
-                    Detail
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mt-4">
-              <div class="card" >
-                <img src="img/wersuit.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-light">
-                  <h5 class="card-title">Wersuit</h5>
-                  <i class="fas fa-star"></i>
-                  <p class="card-text">Rp 10.000/hari</p>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal11">
-                    Detail
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mt-4">
-              <div class="card" >
-                <img src="img/weightbelt.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-light">
-                  <h5 class="card-title">Weight Belt</h5>
-                  <i class="fas fa-star"></i>
-                  <p class="card-text">Rp 10.000/hari</p>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal12">
-                    Detail
-                  </button>
-                </div>
-              </div>
-            </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="img/gaiter.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Gaiter</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">
+              Detail
+            </button>
           </div>
-       </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="img/sepatuhiking.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Sepatu Hiking</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="img/headlamp.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Head Lamp</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal4">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir baris1 -->
 
-        <!-- akhir baris3 -->
-   
+  <!-- card baris2 -->
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <img src="img/tenda2.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Tenda</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal5">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <img src="img/hammock.png" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Hammock</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal6">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <img src="img/survivalkit.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Survival Kit</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal7">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <img src="img/kompor2.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Kompor</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal8">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir baris2 -->
 
-    <!-- Modal -->
+  <!-- card baris3 -->
 
-      <!-- modal 1 -->
-        <div class="modal fade" id="modal1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal1Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/jaket.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td> </td>
-                        <td>Jaket</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td> </td>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td> </td>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td> </td>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <img src="img/kakikatak.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Kaki Katak</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal9">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <img src="img/snorkel.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Snorkel</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal10">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <img src="img/wersuit.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Wersuit</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal11">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4">
+        <div class="card">
+          <img src="img/weightbelt.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Weight Belt</h5>
+            <i class="fas fa-star"></i>
+            <p class="card-text">Rp 10.000/hari</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal12">
+              Detail
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- akhir baris3 -->
+
+
+  <!-- Modal -->
+
+  <!-- modal 1 -->
+  <div class="modal fade" id="modal1" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal1Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/jaket.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td> </td>
+                  <td>Jaket</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td> </td>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td> </td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td> </td>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      <!-- akhir modal 1 -->
+  <!-- akhir modal 1 -->
 
-      
-      <!-- modal 2 -->
-        <div class="modal fade" id="modal2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal2Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/gaiter.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Gaiter</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+
+  <!-- modal 2 -->
+  <div class="modal fade" id="modal2" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal2Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/gaiter.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Gaiter</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 2 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 2 -->
 
-      
-      <!-- modal 3 -->
-        <div class="modal fade" id="modal3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal3Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/sepatuhiking.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Sepatu Hiking</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+
+  <!-- modal 3 -->
+  <div class="modal fade" id="modal3" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal3Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/sepatuhiking.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Sepatu Hiking</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 3 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 3 -->
 
-      
-      <!-- modal 4 -->
-        <div class="modal fade" id="modal4" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal4Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/headlamp.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Headlamp</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+
+  <!-- modal 4 -->
+  <div class="modal fade" id="modal4" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal4Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/headlamp.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Headlamp</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 4 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 4 -->
 
-      
-      <!-- modal 5-->
-        
-        <div class="modal fade" id="modal5" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modal5Label">Detail Product</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <img src="img/tenda2.jpg" class="mdlimg">
-                    </div>
-                    <div class="col-md-6">
-                      <table>
-                        <tr>
-                          <th>Nama Barang</th>
-                          <td>Tenda</td>
-                        </tr>
-                        <tr>
-                          <th>Merk</th>
-                          <td>tidak diketahui</td>
-                        </tr>
-                        <tr>
-                          <th>Stock</th>
-                          <td>5</td>
-                        </tr>
-                        <tr>
-                          <th>Harga</th>
-                          <td>Rp 10.000/hari</td>
-                        </tr>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
+
+  <!-- modal 5-->
+
+  <div class="modal fade" id="modal5" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal5Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal5Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/tenda2.jpg" class="mdlimg">
             </div>
-          </div>
-      <!-- akhir modal 5 -->
-
-      
-      <!-- modal 6 -->
-        
-        <div class="modal fade" id="modal6" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal6Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/hammock.png" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Hammock</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Tenda</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 6 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 5 -->
 
-      
-      <!-- modal 7 -->
-        <div class="modal fade" id="modal7" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal7Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/survivalkit.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Survival Kit</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+
+  <!-- modal 6 -->
+
+  <div class="modal fade" id="modal6" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal6Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal6Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/hammock.png" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Hammock</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 7 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 6 -->
 
-      
-      <!-- modal 8 -->
-        <div class="modal fade" id="modal8" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal8Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal8Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/kompor2.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Kompor</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+
+  <!-- modal 7 -->
+  <div class="modal fade" id="modal7" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal7Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal7Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/survivalkit.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Survival Kit</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 8 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 7 -->
 
-      
-      <!-- modal 9 -->
-        <div class="modal fade" id="modal9" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal9Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal9Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/kakikatak.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Kaki Katak</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+
+  <!-- modal 8 -->
+  <div class="modal fade" id="modal8" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal8Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal8Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/kompor2.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Kompor</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 9 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 8 -->
 
-      
-      <!-- modal 10 -->
-        <div class="modal fade" id="modal10" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal10Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal10Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/snorkel.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Snorkel</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+
+  <!-- modal 9 -->
+  <div class="modal fade" id="modal9" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal9Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal9Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/kakikatak.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Kaki Katak</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 10 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 9 -->
 
-      
-      <!-- modal 11 -->
-        <div class="modal fade" id="modal11" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal11Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal11Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/wersuit.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Wersuit</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+
+  <!-- modal 10 -->
+  <div class="modal fade" id="modal10" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal10Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal10Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/snorkel.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Snorkel</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 11 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 10 -->
 
-      
-      <!-- modal 12 -->
-        <div class="modal fade" id="modal12" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modal12Label" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modal12Label">Detail Product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/weightbelt.jpg" class="mdlimg">
-                  </div>
-                  <div class="col-md-6">
-                    <table>
-                      <tr>
-                        <th>Nama Barang</th>
-                        <td>Weight Belt</td>
-                      </tr>
-                      <tr>
-                        <th>Merk</th>
-                        <td>tidak diketahui</td>
-                      </tr>
-                      <tr>
-                        <th>Stock</th>
-                        <td>5</td>
-                      </tr>
-                      <tr>
-                        <th>Harga</th>
-                        <td>Rp 10.000/hari</td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+
+  <!-- modal 11 -->
+  <div class="modal fade" id="modal11" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal11Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal11Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/wersuit.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Wersuit</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
-      <!-- akhir modal 12 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 11 -->
 
 
-      <!-- akhir modal -->
-      
-    <!-- akhir card -->
-    
+  <!-- modal 12 -->
+  <div class="modal fade" id="modal12" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="modal12Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal12Label">Detail Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/weightbelt.jpg" class="mdlimg">
+            </div>
+            <div class="col-md-6">
+              <table>
+                <tr>
+                  <th>Nama Barang</th>
+                  <td>Weight Belt</td>
+                </tr>
+                <tr>
+                  <th>Merk</th>
+                  <td>tidak diketahui</td>
+                </tr>
+                <tr>
+                  <th>Stock</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp 10.000/hari</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir modal 12 -->
 
-    <!-- awal footer -->
 
-    <section class="pt-5">
-      <footer class="bg-dark p-5 text-white">
-         <div class="container text-center"> 
-            <p class="font1" >Kontak Kami</p> <hr width="400px" color="gray" > 
-            <p class="font"><img src="img/rumah.png" width="1.5%"/> <b>Alamat: </b>Jl.Raya Argotirto No.28, Malang</p>
-            <p class="font"><img src="img/telepon.png" width="1.5%"/> <b>Telp: </b>+6287654321098</p>
-            <p class="font"><img src="img/amplop.png" width="1.5%"/> <b>Email: </b>campuprent@gmail.com</p>
-            <p class="font1">Follow Us</p> <hr width="400px" color="gray">
-            <img src ="img/FB.png" width="3.5%"align="center"/> <img src="img/twit.png" width="3.2%"align="center"/> <img src="img/IG.png" width="3%"align="center"/>
-         </div>
-      </footer>
-   </section>
+  <!-- akhir modal -->
 
-    <!-- akhir footer -->
+  <!-- akhir card -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    <!-- java saya -->
-    <script src="js/main.js"></script>
-  </body>
+  <!-- awal blog -->
+  <section>
+    <div class="container">
+      <div class="row mt-100">
+        <div class="col text-center ">
+          <h1>OUR BLOG</h1>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-4 mt-4">
+          <div class="card" style="width: 18rem;">
+            <img src="img/kategoricad.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">cara ...</h5>
+              <p class="card-text">by jasdgufgue</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir blog -->
+
+
+  <!-- awal footer -->
+
+  <section class="pt-5">
+    <footer class="bg-dark p-5 text-white">
+      <div class="container text-center">
+        <p>Kontak Kami</p>
+        <hr width="400px" color="gray">
+        <p><img src="img/rumah.png" width="1.5%" /> <b>Alamat: </b>Jl.Raya Argotirto No.28, Malang</p>
+        <p><img src="img/telepon.png" width="1.5%" /> <b>Telp: </b>+6287654321098</p>
+        <p><img src="img/amplop.png" width="1.5%" /> <b>Email: </b>campuprent@gmail.com</p>
+        <p>Follow Us</p>
+        <hr width="400px" color="gray">
+        <img src="img/FB.png" width="3.5%" align="center" /> <img src="img/twit.png" width="3.2%" align="center" /> <img
+          src="img/IG.png" width="3%" align="center" />
+      </div>
+    </footer>
+  </section>
+
+  <!-- akhir footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <!-- java saya -->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
