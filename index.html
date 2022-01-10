@@ -1,335 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-  <!-- font saya -->
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- FONT SAYA -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <!-- CSS SAYA -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <style>
+        /* INDEX */
+        html,
+        body {
+            height: 100%;
+            overflow-y: hidden;
+            color: white;
+            font-family: poppins;
+        }
 
-  <!-- CSS saya -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>CAMP-UPrent</title>
+        .jumbotron {
+            background-image: url("img/jumin.jpg");
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            padding-top: 170px;
+        }
+
+        .lead {
+            font-size: 25px;
+        }
+    </style>
+    <title>CAMP-UPrent</title>
+    <link rel="icon" href="img/logo3.png">
 </head>
 
 <body>
-
-  <!-- awal navbar -->
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">CAMP-UPrent</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <div class="navbar-nav ml-auto mr-4">
-          <a class="nav-link nav-item active" href="#">HOME <span class="sr-only">(current)</span></a>
-          <a class="nav-link nav-item active" href="#">BLOG</a>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              CATEGORY
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="http://127.0.0.1:5500/hiking.html">Hiking</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Camping</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Diving</a>
-            </div>
-          </li>
-          <a class="nav-link nav-item active" href="http://127.0.0.1:5500/login.html">LOGIN</a>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4"> <span class="font-weight-bold">SELAMAT DATANG</span>
+                <p class="lead">Lengkapi Peralatanmu Disini !</p>
+                <a class="btn btn-primary btn-lg" href="login.php" role="button">MASUK</a>
         </div>
-      </div>
-    </div>
-  </nav>
-
-  <!-- akhir navbar -->
-
-
-  <!-- awal jumbotron -->
-
-  <div class="jumbotron jumbotron-fluid ">
-    <div class="container ifont">
-      <h1 class="display-4"><span class="font-weight-bold">Explore</span> our <span
-          class="font-weight-bold">Nature</span></h1>
-      <p class="lead">complete your equipment here!</p>
-    </div>
-  </div>
-
-  <!-- akhir jumbotron -->
-
-
-
-  <!-- awal card -->
-
-  <!-- awal card -->
-
-  <div class="container ">
-    <div class="row mt-50">
-      <div class="col text-center ">
-        <h1>Our Product</h1>
-      </div>
     </div>
 
-    <!-- card baris1 -->
-    <div class="row justify-content-center row-item">
-      <!-- carousel -->
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+    <!-- Optional JavaScript; choose one of the two! -->
 
-            <!-- DERET 1 -->
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/jaket.jpg" alt="">
-                  <p class="nama-item ">Jaket Mendaki</p>
-                  <p class="harga-item">Rp. 7.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary" type="button">Detail</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/gaiter.jpg" alt="">
-                  <p class="nama-item ">Gaiter</p>
-                  <p class="harga-item">Rp. 5.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary" type="button">Detail</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/sepatuhiking.jpg" alt="">
-                  <p class="nama-item ">Sepatu</p>
-                  <p class="harga-item">Rp. 12.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary" type="button">Detail</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/headlamp.jpg" alt="">
-                  <p class="nama-item ">Head Lamp</p>
-                  <p class="harga-item">Rp. 5.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary">Detail</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- AHKIR DERET 1 -->
-
-          <!-- DERET 2 -->
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/kompas.jpg" alt="">
-                  <p class="nama-item ">Kompas</p>
-                  <p class="harga-item">Rp. 3.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary">Detail</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/tenda2.jpg" alt="">
-                  <p class="nama-item ">Tenda (4 orang)</p>
-                  <p class="harga-item">Rp. 25.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary">Detail</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/matras.jpg" alt="">
-                  <p class="nama-item ">Matras Tidur</p>
-                  <p class="harga-item">Rp. 6.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary">Detail</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/hammock.png" alt="">
-                  <p class="nama-item ">Hammock</p>
-                  <p class="harga-item">Rp. 12.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary">Detail</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- AKHIR DERET 2 -->
-
-          <!-- DERET 3 -->
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/wersuit.jpg" alt="">
-                  <p class="nama-item ">Wersuit</p>
-                  <p class="harga-item">Rp. 30.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary">Detail</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/mask.jpg" alt="">
-                  <p class="nama-item ">Kacamata Selam</p>
-                  <p class="harga-item">Rp. 10.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary">Detail</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/kakikatak.jpg" alt="">
-                  <p class="nama-item ">Kaki Katak</p>
-                  <p class="harga-item">Rp. 15.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary">Detail</button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <div class="kotak-item" id="gambar1">
-                  <img src="img/snorkel.jpg" alt="">
-                  <p class="nama-item ">Snorkel</p>
-                  <p class="harga-item">Rp. 12.000/hari</p>
-                  <a href="">
-                    <button class="btn btn-primary">Detail</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- akhir carousel -->
-    </div>
-
-    <!-- akhir card -->
-
-
-
-
-    <!-- akhir card -->
-
-
-    <!-- awal blog -->
-    <div class="container">
-      <div class="row mt-50">
-        <div class="col text-center ">
-          <h1>OUR BLOG</h1>
-        </div>
-      </div>
-      <div class="row justify-content-center row-item">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="kotak-blog" id="gambar1">
-              <img src="img/kategoricad.jpg" alt="">
-              <p class="judul-blog">Mendaki Gunung</p>
-              <p class="isi-blog">Lorem ipsum dolor, voluptatem eius odit commodi totam, accusantium</p>
-              <a href="">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="kotak-blog" id="gambar1">
-              <img src="img/kategoricad.jpg" alt="">
-              <p class="judul-blog">Tips & Tricks Mendaki</p>
-              <p class="isi-blog">Lorem ipsum dolor, voluptatem eius odit commodi totam, accusantium</p>
-              <a href="">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="kotak-blog" id="gambar1">
-              <img src="img/kategoricad.jpg" alt="">
-              <p class="judul-blog">Cara Membuat Tenda</p>
-              <p class="isi-blog">Lorem ipsum dolor, voluptatem eius odit commodi totam, accusantium</p>
-              <a href="">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="kotak-blog" id="gambar1">
-              <img src="img/kategoricad.jpg" alt="">
-              <p class="judul-blog">Peralatan Diving</p>
-              <p class="isi-blog">Lorem ipsum dolor, voluptatem eius odit commodi totam, accusantium</p>
-              <a href="">
-                <button type="button" class="btn btn-outline-secondary">View</button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- akhir blog -->
-
-
-    <!-- awal footer -->
-
-    <section class="pt-5">
-      <footer class="bg-dark p-5 text-white">
-        <div class="container text-center">
-          <p>Kontak Kami</p>
-          <hr width="400px" color="gray">
-          <p><img src="img/rumah.png" width="1.5%" /> <b>Alamat: </b>Jl.Raya Argotirto No.28, Malang</p>
-          <p><img src="img/telepon.png" width="1.5%" /> <b>Telp: </b>+6287654321098</p>
-          <p><img src="img/amplop.png" width="1.5%" /> <b>Email: </b>campuprent@gmail.com</p>
-          <p>Follow Us</p>
-          <hr width="400px" color="gray">
-          <img src="img/FB.png" width="3.5%" align="center" /> <img src="img/twit.png" width="3.2%" align="center" />
-          <img src="img/IG.png" width="3%" align="center" />
-        </div>
-      </footer>
-    </section>
-
-    <!-- akhir footer -->
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"></script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
-    <!-- java saya -->
-    <script src="js/main.js"></script>
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>
